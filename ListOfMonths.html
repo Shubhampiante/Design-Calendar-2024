@@ -1,0 +1,82 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024 Calendar</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .months-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .month-card {
+            background-color: #ffffff7f;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+            text-decoration: none;
+            
+        }
+       
+        .month-card:hover {
+            transform: scale(1.05);
+        }
+
+        .month-card {
+            font-size: 1.5em;
+            color: #555;
+        }
+        #a{
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Calender 2024</h1>
+        <div class="months-grid">
+            <div class="month-card"><a href="Jan.html" id="a"> January </a></div>
+            <div class="month-card"> <a href="Feb.Html" id="a">February </a></div>
+            <div class="month-card"> <a href="Mar.html" id="a">March </a></div>
+            <div class="month-card"> <a href="Apr.html" id="a">April </a></div>
+            <div class="month-card"> <a href="May.html" id="a">May </a></div>
+            <div class="month-card"> <a href="June.html" id="a">June </a></div>
+            <div class="month-card"> <a href="July.html" id="a">July </a></div>
+            <div class="month-card"> <a href="Aug.html" id="a">August </a></div>
+            <div class="month-card"> <a href="Sep.html" id="a">September </a></div>
+            <div class="month-card"> <a href="Oct.html" id="a">October </a></div>
+            <div class="month-card"><a href="Nov.html" id="a"> November </a></div>
+            <div class="month-card"> <a href="Dec.html" id="a">December </a></div>
+        </div>
+    </div>
+</body>
+</html>
+
